@@ -1,0 +1,4 @@
+# file: /home/rahbar/mox-erc20/script/snek_token_deploy.py
+# hypothesis_version: 6.136.6
+
+[1000, 'ether']

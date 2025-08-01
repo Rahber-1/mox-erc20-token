@@ -1,0 +1,22 @@
+[project]
+name = "12-mox-erc20-cu"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "hypothesis>=6.136.6",
+    "mamushi>=0.0.3",
+    "moccasin>=0.4.0",
+    "snekmate>=0.1.1",
+    "vyper>=0.4.1",
+]
+
+[tool.moccasin.project]
+src = "contracts"
+
+[tool.moccasin.networks.sepolia]
+url = "$SEPOLIA_RPC_URL"
+default_account_name="metamask_key"
+chain_id = 11155111
+prompt_live = true
