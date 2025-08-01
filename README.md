@@ -18,20 +18,6 @@ super_mint() with fuzz testing to highlight hidden bugs
 
 Unit and stateful fuzz tests using boa and hypothesis
 
-🚧 Project Structure
-
-snek-token/
-├── contracts/
-│   └── snek_token.vy         # Main Vyper contract
-├── script/
-│   ├── snek_token_deploy.py   # Deployment and bootstrap logic
-├── test/
-│   ├── test_snek_token.py      # Unit tests with Boa
-│   └── fuzz_snek_token.py      # Stateful fuzzing tests
-├── lib/
-│   └── pypi/snekmate/         # SnekMate modules (auth, erc20)
-└── README.md
-
 📝 Contract Details
 
 NAME: snek_token
